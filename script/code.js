@@ -1,3 +1,4 @@
+/********************************************/
 let about = document.querySelector('section#about .row:last-child');
 
 let aboutContents =[
@@ -11,67 +12,43 @@ aboutContents.forEach((content, i)=>{
 about.innerHTML += `        
 <p class="lead">${i+1}. ${content}</p>`
 })
-
+/********************************************************/
 // Education
 let education = [
     {
         id: 1,
-        year: 2020,
-        description: 'I got my certificates on Data science',
-        place: 'Data Camp',
+        year: 2022,
+        description: 'Full stack web developer Bootcamp',
+        place: 'Life Choices Academy',
         type: 'certificate',
         certificate: ''
     },
     {
         id: 2,
-        year: 2019,
-        description: 'I got my certificates on Advanced to Python',
-        place: 'Data Camp',
+        year: 2012,
+        description: 'Data Analyst Bootcamp',
+        place: 'Capaciti',
         type: 'certificate',
         certificate: ''
     },
     {
         id: 3,
-        year: 2018,
-        description: 'I got my certificates on Intro to Python',
-        place: 'Data Camp',
+        year: 2021,
+        description: 'Front end web development bootcamp',
+        place: 'IT Varsity',
         type: 'certificate',
         certificate: ''
     },
     {
         id: 4,
         year: 2015,
-        description: 'I got my certificate on Intro to Android Developer',
-        place: 'Study Jams',
+        description: 'System development',
+        place: 'Capaciti',
         type: 'certificate',
         certificate: ''
     },
-    {
-        id: 5,
-        year: 2014,
-        description: 'I got my diploma on Software Engineering',
-        place: 'Tshwane University of Technology',
-        type: 'Diploma',
-        certificate: ''
-    },
-    {
-        id: 6,
-        year: 2005,
-        description: 'Completed my course on PC Engineering',
-        place: 'Havatech',
-        type: 'Certificate',
-        certificate: ''
-    },
-    {
-        id: 7,
-        year: 2000,
-        description: 'Grade 12',
-        place: '',
-        type: 'Certificate',
-        certificate: ''
-    },
 ]
-//
+  
 let divEducation = document.querySelector('#education');
 education.forEach((data)=> {
     divEducation.innerHTML += `
@@ -86,3 +63,36 @@ education.forEach((data)=> {
     </div>
     `
 }) 
+
+let skills =[
+    {
+    skill:`HTML`,
+    rating:`Master`,
+    },
+    // 
+       {
+    skill:`CSS`,
+    rating:`Master`,
+    },
+    // 
+    {
+    skill:`Javascript`,
+    rating:`Master`,
+     },
+    //  
+    {
+    skill:`SQL`,
+    rating:`Master`,
+     },
+    // 
+    {
+    skill:``,
+    rating:`Master`,
+        },
+        
+        
+        
+]
+let skill  = document.querySelector('#skills');
+education.forEach((data)=> {
+    divEducation.innerHTML +='' })
